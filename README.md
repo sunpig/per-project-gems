@@ -1,7 +1,7 @@
-# ruby-baseline
+# Per-project gem environment using Bundler
 
-Instructions for using Bundler to manage a ruby gem environment on a per-project basis,
-e.g. using jekyll to manage your blog.
+Instructions for using [Bundler](http://bundler.io/) to manage a ruby gem environment on a per-project basis,
+e.g. using [jekyll](http://jekyllrb.com/) to manage your blog.
 
 Key concepts:
 
@@ -10,7 +10,9 @@ Key concepts:
 * Use Bundler to install a local cache of gems and dependencies to minimize need
   for rubygems.org.
 
-See also: [http://ryan.mcgeary.org/2011/02/09/vendor-everything-still-applies/](http://ryan.mcgeary.org/2011/02/09/vendor-everything-still-applies/)
+References:
+
+* [“Vendor Everything” Still Applies"](http://ryan.mcgeary.org/2011/02/09/vendor-everything-still-applies/) by Ryan McGeary
 
 ## Initial workflow
 
