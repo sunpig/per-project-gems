@@ -1,10 +1,13 @@
 # ruby-baseline
 
-A baseline for projects using ruby gems, e.g. a jekyll site.
+Instructions for using Bundler to manage a ruby gem environment on a per-project basis,
+e.g. using jekyll to manage your blog.
 
-* Uses rvm to set the ruby environment
-* Uses Bundler for gems and gem dependencies (*not* rvm gemsets)
-* Uses Bundler to install a local cache of gems and dependencies to minimize need
+Key concepts:
+
+* Use rvm to set the ruby environment
+* Use Bundler for gems and gem dependencies (*not* rvm gemsets)
+* Use Bundler to install a local cache of gems and dependencies to minimize need
   for rubygems.org.
 
 See also: [http://ryan.mcgeary.org/2011/02/09/vendor-everything-still-applies/](http://ryan.mcgeary.org/2011/02/09/vendor-everything-still-applies/)
